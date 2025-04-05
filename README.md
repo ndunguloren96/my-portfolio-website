@@ -1,6 +1,6 @@
 # get-portfolio-website
 
-#Whether you are:
+# Whether you are:
 - Freelancers (graphic designers, photographers, writers, etc.)
 - Small business owners (cafes, retail shops, beauty salons, etc.)
 - Creative professionals (fashion designers, content creators, etc.)
