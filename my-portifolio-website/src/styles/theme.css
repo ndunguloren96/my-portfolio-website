@@ -1,0 +1,9 @@
+/* dark mode helpers (if needed later) */
+:root {
+  --transition-speed: 0.3s;
+}
+
+html.dark {
+  background-color: #000;
+  color: #fff;
+}
