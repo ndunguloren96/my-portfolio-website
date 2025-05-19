@@ -83,8 +83,8 @@ const About = () => {
           <div className="space-y-4">
             <div className="border-l-4 border-primary-dark dark:border-primary-light pl-4 py-2">
               <h4 className="font-bold">Computer Science Degree</h4>
-              <p className="text-sm text-gray-600 dark:text-gray-400">University of ...</p>
-              <p className="text-sm text-gray-500 dark:text-gray-500">2020 - Present</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">The Co-operative University of Kenya</p>
+              <p className="text-sm text-gray-500 dark:text-gray-500">2023 - Present</p>
             </div>
             {/* Add additional education items as needed */}
           </div>
