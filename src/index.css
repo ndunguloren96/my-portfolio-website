@@ -1,3 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom global styles and theme imports */
+@import './styles/global.css';
+@import './styles/theme.css';
+
+
+/*
+  Removed original root, body, h1, a, button styles from Vite's default template.
+  These are generally better handled by Tailwind CSS classes or your global.css/theme.css.
+  Keeping them here might override Tailwind classes or lead to inconsistencies.
+*/
+
+/* --- Removed Default Vite/React Template Styles Below --- */
+/*
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +83,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/

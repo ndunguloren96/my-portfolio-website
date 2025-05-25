@@ -1,9 +1,11 @@
-/* dark mode helpers (if needed later) */
 :root {
-  --transition-speed: 0.3s;
+  --primary-color: #10b981;
+  --secondary-color: #1e293b;
+  --text-light: #f8fafc;
+  --text-dark: #0f172a;
 }
 
-html.dark {
-  background-color: #000;
-  color: #fff;
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
 }
