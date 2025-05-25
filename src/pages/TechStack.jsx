@@ -35,7 +35,7 @@ const TechStack = () => {
                     text-3xl md:text-4xl font-extrabold mb-12
                     text-green-400 uppercase tracking-widest text-center
                 ">
-                    TECHNOLOGIES
+                    Technologies
                 </h2>
                 <div className="
                     flex flex-wrap justify-center items-stretch gap-8 sm:gap-10 md:gap-12 lg:gap-14
