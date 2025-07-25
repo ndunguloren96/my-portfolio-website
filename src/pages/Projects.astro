@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+---
+
+<Layout title="Projects - Loren Ndung'u">
+  <div
+    class="max-w-screen-xl flex flex-wrap mx-auto mt-10 rounded justify-center lg:justify-start slide-up"
+  >
+    <ProjectCard
+      title="Ltronix Shop"
+      description="Ltronix Shop is a full-stack e-commerce platform built with a modern architecture, featuring a decoupled frontend and backend, automated CI/CD pipelines, and infrastructure as code. It is a production ready ecommerce designed to provide a seamless online shopping experience"
+      link="https://ltronix-shop.vercel.app/products"
+      github="https://github.com/ndunguloren96"
+      image="/images/ltronix-products.png"
+    />
+    <ProjectCard
+      title="University Backend Class Attendance System"
+      description="This project is a scalable, user-friendly C-based backend for managing university class attendance, supporting multiple units, lecturers, and roles."
+      link="https://github.com/ndunguloren96/university_class_attendance_system"
+      github="https://github.com/ndunguloren96/university_class_attendance_system"
+      image="/images/admin-login.png"
+    />
+  </div>
+</Layout>
+
+<style>
+  .slide-up {
+    transform: translateY(-50%);
+    opacity: 0;
+    animation: slideUp 1s forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
